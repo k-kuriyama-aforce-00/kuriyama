@@ -67,8 +67,8 @@ public class PracticeTest8 {
 	//問題８
 	public String getMessage(String name, boolean isKid) {
 		String mw = null;
-		if(isKid = true)mw = "ちゃん";
-		if(isKid = false)mw = "さん";
+		if(isKid == true)mw = "ちゃん";
+		if(isKid == false)mw = "さん";
 				
 		return "こんにちは。" + name + mw + "。";
 	}
